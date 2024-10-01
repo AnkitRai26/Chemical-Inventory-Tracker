@@ -31,7 +31,7 @@ Chemical-Inventory-Tracker is a web application designed for managing a chemical
 - **Edit Functionality:** Users can edit chemical details using a user-friendly interface that allows for smooth updates.
 
 - **Responsive Design:** The application is designed to be mobile-friendly and compatible with various browsers.
--**HOST Link:** 
+-**HOST Link:** https://ankitrai26.github.io/Chemical-Inventory-Tracker/
 ## Installation
 
 To run the project locally, follow these steps:
