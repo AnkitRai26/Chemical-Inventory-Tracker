@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfbfa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#chemical-heading h1 {
+  padding: 0px;
+  display: inline;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.actions button {
+  justify-content: end;
+  margin: 0%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #eee;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #fdf2e9;
+  vertical-align: baseline;
+  height: 100px;
+}
+
+thead th {
+  cursor: pointer;
+}
+
+tr.selected {
+  background-color: #d7e3fc;
+}

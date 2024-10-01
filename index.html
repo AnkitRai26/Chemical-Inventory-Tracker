@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chemical Supplies</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="actions">
+        <span id="chemical-heading"><h1>Chemical supplies</h1></span>
+        <span>
+          <button onclick="addRow()">➕</button>
+          <button onclick="moveUp()">⬇️</button>
+          <button onclick="moveDown()">⬆️</button>
+          <button onclick="deleteRow()">🗑️</button>
+          <button
+            onclick="refreshPage()"
+            style="font-size: 16px; color: #007bff; text-shadow: #007bff"
+          >
+            ⭯
+          </button>
+          <button onclick="saveTable()">💾</button>
+        </span>
+      </div>
+      <table id="chemicalTable">
+        <thead>
+          <tr>
+            <th style="color: gray">✔</th>
+            <th>Chemical Name</th>
+            <th>Vendor</th>
+            <th>Density (g/m³)</th>
+            <th>Viscosity (m²/s)</th>
+            <th>Packaging</th>
+            <th>Pack Size</th>
+            <th>Unit</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Data will be injected here via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
