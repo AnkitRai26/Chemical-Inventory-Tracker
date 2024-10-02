@@ -144,14 +144,14 @@ function moveUp() {
 
 // Refresh the page
 function refreshPage() {
-  //   location.reload();
-  let storedtable = JSON.parse(localStorage.getItem("tableData"));
-  if (storedtable) {
-    tableData = storedtable;
-    populateTable();
-  } else {
     location.reload();
-  }
+  // let storedtable = JSON.parse(localStorage.getItem("tableData"));
+  // if (storedtable) {
+  //   tableData = storedtable;
+  //   populateTable();
+  // } else {
+  //   location.reload();
+  // }
 }
 
 // Save the table data to local storage
